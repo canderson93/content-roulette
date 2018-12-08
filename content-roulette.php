@@ -17,8 +17,8 @@ define('CONTENT_ROULETTE_VERSION', '1.0.0');
  * Loads in the Content Roulette class, and tell it to register its hooks
  */
 function run_content_roulette() {
-    require_once(plugin_dir_path(__FILE__) . 'includes/class.ContentRoulette.php');
-    $instance = new \ContentRoulette\ContentRoulette();
+    require_once( plugin_dir_path( __FILE__ ) . 'includes/class-content-roulette.php' );
+    $instance = new \ContentRoulette\Content_Roulette();
 
     $instance->register_hooks();
 }

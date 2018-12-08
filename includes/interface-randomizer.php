@@ -31,5 +31,5 @@ interface IRandomizer
      *
      * @return int random value
      */
-    public function getRandom(int $max, int $min = 0) : int;
+    public function get_random( int $max, int $min = 0 ): int;
 }
